@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<plugin xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="../../../engine/Shopware/Components/Plugin/schema/plugin.xsd">
+    <label lang="de">tplbFixSltCookie</label>
+    <label lang="en">tplbFixSltCookie</label>
+    <version>1.0.0</version>
+    <copyright>(c) tapLab GmbH</copyright>
+    <link>https://www.taplab.de/shopware</link>
+    <author>tapLab GmbH</author>
+    <description>Behebt einen Fehler, der bei Gastbestellungen im Zuge des Checkouts zu einem leeren Warenkorb führen kann. Vgl. Ticket https://issues.shopware.com/issues/SW-21126</description>
+
+    <compatibility minVersion="5.3.0" />
+
+    <changelog version="1.0.0">
+        <changes lang="de">Erste Veröffentlichung</changes>
+        <changes lang="en">Initial Release</changes>
+    </changelog>
+</plugin>
